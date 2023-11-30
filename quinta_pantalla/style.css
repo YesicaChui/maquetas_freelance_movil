@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-
 }
 
 .caja_pricipal {
@@ -10,7 +9,6 @@
   width: 100vw;
   display: flex;
   flex-direction: column;
-
 }
 
 .caja_boton {
@@ -26,40 +24,18 @@
   border-radius: 20px; 
   display: flex;
   align-items: center; 
- 
 }
 
 .imagen_navegar {
   width: 20px; 
   height: 20px; 
   margin-right: 8px;
-  
-  
 }
 
 .texto_navegar{
   font-weight: bolder;
   font-size: 18px;
 }
-
-
-
-
- 
-/* .caja_boton {
-  background-color: black;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  display: flex;
-  align-items: center;
-}
-
-.boton_navegar {
-  max-width: 100%;
-  height: auto;
-  margin: 10px;
-}  */
 
 .caja_direccion{
   background-color: #fff;
@@ -108,7 +84,6 @@
   flex-direction: column;
   gap: 5px;
   justify-content: center;
-
 }
 
 .imagen_yape {
