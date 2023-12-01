@@ -3,3 +3,108 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.caja_principal{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.caja_mapa{
+  background-color: black;
+  flex-grow: 1;
+}
+
+.texto_pregunta{
+  background-color: #1e2225;
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+.caja_direcciones_pago{
+  display: flex;
+  padding: 5px;
+  gap: 5px;
+}
+
+.caja_persona_nombre{
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 12px;
+ 
+  width: 16%;
+}
+
+.imagen_persona{
+  width: 40px;
+}
+
+.texto_sol{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.primera_direccion{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.segunda_direccion{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 14px;
+}
+
+.caja_sol_yape{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  
+}
+
+.imagen_yape{
+  width: 23px;
+  border-radius: 5px;
+}
+
+.texto_pago{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+.botones_si_no{
+ padding: 10px;
+ display: flex;
+ flex-direction: column;
+ gap: 8px;
+}
+
+.boton_si{
+  background-color: blue;
+  border-radius: 15px;
+  padding: 15px;
+  color: #fff;
+  border: none;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.boton_no{
+  border: none;
+  background-color:  #fff;
+  font-size: 22px;
+  border: solid 3px blue;
+  border-radius: 15px;
+  font-weight: bold;
+  padding: 15px;
+  
+}
